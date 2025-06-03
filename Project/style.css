@@ -6,3 +6,85 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
+
+body {
+    background: #88ABFF;
+}
+
+.wrapper {
+    margin: 50px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, 265px);
+}
+
+.wrapper li {
+    height: 250px;
+    list-style: none;
+    background: #FFF;
+    border-radius: 5px;
+    padding: 15px 20px 20px;
+}
+
+.add-box, .icon, .bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-box {
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.add-box .icon {
+    height: 78px;
+    width: 78px;
+    color: #88ABFF;
+    font-size: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    border: 2px dashed #88ABFF;
+}
+
+.add-box p {
+    color: #88ABFF;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.wrapper .note {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.note p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.note span {
+    display: block;
+    margin-top: 5px;
+    color: #575757;
+    font-size: 16px;
+}
+
+.note .bottom-content {
+    padding-top: 10px;
+    border-top: 1px solid #CCC;
+}
+
+.bottom-content span {
+    color: #6D6D6D;
+    font-size: 14px;
+}
+
+.bottom-content .settings i {
+    color: #6D6D6D;
+    font-size: 15px;
+    cursor: pointer;
+}
