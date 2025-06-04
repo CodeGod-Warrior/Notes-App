@@ -8,6 +8,27 @@
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <div class="popup-box">
+        <div class="popup">
+            <div class="content">
+                <header>
+                    <p>Add a new Note</p>
+                    <i class='bx  bx-x'></i> 
+                </header>
+                <form action="#">
+                    <div class="row title">
+                        <label>Title</label>
+                        <input type="text">
+                    </div>
+                    <div class="row description">
+                        <label>Description</label>
+                        <textarea></textarea>
+                    </div>
+                    <button>Add Note</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <div class="wrapper">
         <li class="add-box">
             <div class="icon">
@@ -24,6 +45,10 @@
                 <span>April 3, 2025</span>
                 <div class="settings">
                     <i class='bx  bx-dots-horizontal-rounded'></i> 
+                    <ul class="menu">
+                        <li><i class='bx  bx-pencil'></i>Edit</li>
+                        <li><i class='bx  bx-trash'></i> Delete</li>
+                    </ul>
                 </div>
             </div>
         </li>
